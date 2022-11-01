@@ -1,0 +1,64 @@
+{	
+	"ROOT": "net/ckpt",
+	"source": "CIFAR10_resnet50/source.pth",
+	"train": {
+		"negative_models": [
+			"CIFAR10_resnet50/train/negative_models/inception_v3.pth",
+			"CIFAR10_resnet50/train/negative_models/densenet121.pth",
+			"CIFAR10_resnet50/train/negative_models/densenet161.pth",
+			"CIFAR10_resnet50/train/negative_models/densenet169.pth",
+			"CIFAR10_resnet50/train/negative_models/googlenet.pth",
+			"CIFAR10_resnet50/train/negative_models/mobilenet_v2.pth",
+			"CIFAR10_resnet50/train/negative_models/resnet18.pth",
+			"CIFAR10_resnet50/train/negative_models/resnet34.pth",
+			"CIFAR10_resnet50/train/negative_models/vgg11_bn.pth",
+			"CIFAR10_resnet50/train/negative_models/vgg13_bn.pth",
+			"CIFAR10_resnet50/train/negative_models/vgg16_bn.pth",
+			"CIFAR10_resnet50/train/negative_models/vgg19_bn.pth"
+		],
+		"positive_models": [
+			"CIFAR10_resnet50/train/positive_models/model1.pth",
+			"CIFAR10_resnet50/train/positive_models/model2.pth",
+			"CIFAR10_resnet50/train/positive_models/model3.pth",
+			"CIFAR10_resnet50/train/positive_models/model4.pth",
+			"CIFAR10_resnet50/train/positive_models/model5.pth",
+			"CIFAR10_resnet50/train/positive_models/model6.pth",
+			"CIFAR10_resnet50/train/positive_models/model7.pth",
+			"CIFAR10_resnet50/train/positive_models/model8.pth",
+			"CIFAR10_resnet50/train/positive_models/model9.pth",
+			"CIFAR10_resnet50/train/positive_models/model10.pth"
+		]
+	},
+	"val": {
+		"negative_models": [
+			"CIFAR10_resnet50/val/negative_models/model1.pth",
+			"CIFAR10_resnet50/val/negative_models/model2.pth",
+			"CIFAR10_resnet50/val/negative_models/model3.pth",
+			"CIFAR10_resnet50/val/negative_models/model4.pth",
+			"CIFAR10_resnet50/val/negative_models/model5.pth"
+		],
+		"positive_models": [
+			"CIFAR10_resnet50/val/positive_models/model1.pth",
+			"CIFAR10_resnet50/val/positive_models/model2.pth",
+			"CIFAR10_resnet50/val/positive_models/model3.pth",
+			"CIFAR10_resnet50/val/positive_models/model4.pth",
+			"CIFAR10_resnet50/val/positive_models/model5.pth"
+		]
+	},
+	"test": {
+		"negative_models": [
+			"CIFAR10_resnet50/test/negative_models/model1.pth",
+			"CIFAR10_resnet50/test/negative_models/model2.pth",
+			"CIFAR10_resnet50/test/negative_models/model3.pth",
+			"CIFAR10_resnet50/test/negative_models/model4.pth",
+			"CIFAR10_resnet50/test/negative_models/model5.pth"
+		],
+		"positive_models": [
+			"CIFAR10_resnet50/test/positive_models/model1.pth",
+			"CIFAR10_resnet50/test/positive_models/model2.pth",
+			"CIFAR10_resnet50/test/positive_models/model3.pth",
+			"CIFAR10_resnet50/test/positive_models/model4.pth",
+			"CIFAR10_resnet50/test/positive_models/model5.pth"
+		]
+	}
+}
